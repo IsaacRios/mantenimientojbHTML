@@ -1,0 +1,23 @@
+body{
+  font-size: 1.5em;
+}
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.main-container{
+
+}
+.main-header{
+  background-color: #yellow;
+  padding-right:15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav-link{
+   color: white;
+   margin-right: 4px;
+}
+.texto-derecha{
+  text-align: right;
+}
