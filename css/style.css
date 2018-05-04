@@ -1,23 +1,134 @@
+/*-----
+$verde: rgba(32, 191, 85, 1); 
+$cafe: rgba(69, 80, 59, 1);
+$amarillo: rgba(249, 230, 4, 1);
+$gris: rgba(122, 124, 119, 1);
+$cafeferde: rgba(160, 156, 87, 1);
+
+
+a{
+  color:  rgba(69, 80, 59, 1);
+}
+a:link {
+    color:rgba(69, 80, 59, 1);
+}
+a:visited {
+    color: rgba(249, 230, 4, 1);
+}
+a:hover {
+    color: rgba(32, 191, 85, 1); 
+}
+---*/
 body{
   font-size: 1.5em;
 }
-.pacifico{
-  font-family: 'Pacifico', cursive;
-}
-.main-container{
 
+
+li{
+  padding-left: 10px;
+}
+i{
+  padding-right: 5px;
+}
+.container-cards{
+  margin-top: -3em;
+}
+.container-cita{
+  margin: 100px;
+  text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   border: 1px grey;
+   padding: 50px;
 }
 .main-header{
-  background-color: #yellow;
+  background-image: url("3207.jpg");
+  border: solid grey 2px;
   padding-right:15px;
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 10px;
+  height: 650px;
+}
+.main-title{
+  color: white;
+  text-align: center;
+  
+}
+.main-titlePrincipal{
+  font-family: 'Bungee Inline', cursive;
+}
+.main-titleSub{
+  font-family: 'Pacifico', cursive;
 }
 .nav-link{
-   color: white;
-   margin-right: 4px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 4px;
+  font-size: 2em;
 }
 .texto-derecha{
   text-align: right;
+}
+.text-important{
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+}
+/* colores de fuente */
+.texto-blanco{
+  color: white;
+}
+.texto-verde{
+  color: rgba(32, 191, 85, 1); 
+}
+.texto-cafe{
+  color: rgba(69, 80, 59, 1);
+}
+.texto-amarillo{
+  color: rgba(249, 230, 4, 1);
+}
+.texto-gris{
+  color: rgba(122, 124, 119, 1);
+}
+.texto-cafeverde{
+  color: rgba(160, 156, 87, 1);
+}
+
+/* tipos de fuente*/
+
+.texto-bungee{
+  font-family: 'Bungee Inline', cursive;
+}
+.texto-OSans{
+  font-family: 'Open Sans', sans-serif;
+}
+.texto-pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.table-services{
+  background-image: url("mdifondo1.jpg");
+  height: 500px;
+}
+.table-services-celd{
+  text-align: center;
+}
+.table-services-icon{
+  color: rgba(249, 230, 4, 1);
+  font-size: 3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.table-services-icon:hover{
+  color: rgba(32, 191, 85, 1); 
+}
+.table-services-text{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+#header{
+
+}
+#footer{
+    background-color: rgba(69, 80, 59, 1);
+    height: 500px;
+    margin-top: -15px;
 }

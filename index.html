@@ -7,45 +7,170 @@
     <title>Mantenimiento Residencial</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   </head>
   <body>
   	<header>
-  		<nav class="navbar fixed-top navbar-expand-lg">
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-    		</button>
+  		<nav class="navbar navbar-expand-lg d-flex navbar-light bg-light fixed-top">
   			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  			<ul class="navbar-nav mr-auto">
-	  				<li class="nav-item active"><i class="fab fa-whatsapp"></i><a href="tel:2221-20-26-90">2221-20-26-90</a></li>
-	  				<li class="nav-item active"><i class="far fa-envelope"></i><a href="mailto:javier_bernal@mantenimientodomesticointegral.mx">javier_bernal@mantenenimiento...</a></li>
-	  				<li class="nav-item active texto-derecha"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+	  				<li class="nav-item active"><i class="fab fa-whatsapp"></i><a href="tel:2221202690" class="texto-verde">2221-20-26-90</a></li>
+	  				<li class="nav-item disabled texto-gris">|</li>
+	  				<li class="nav-item active"><i class="far fa-envelope"></i><a href="mailto:javier_bernal@mantenimientodomesticointegral.mx" class="texto-verde">javier_bernal@mantenimientodomesticointegral.com</a></li>
 	  			</ul>
+	  			<div>
+		  			<ul class="navbar-nav mr-auto">
+		  				<li class="nav-item active d-flex justify-content-end"><a href="" class="texto-verde"><i class="fab fa-facebook-f"></i></a></li>
+		  			</ul>
+	  			</div>
 	  		</div>
   		</nav>
-  		<nav>
-  			<ul>
-  				<li><a href=""><img src="logojbSimple.png" alt="" height="50px"></a></li>
-  			</ul>
-  			<ul>
-  				<li><a href=""></a>Inicio</li>
-  			</ul>
-  			<ul>
-  				<li><a href=""></a>Soluciones</li>
-  			</ul>
-  			<ul>
-  				<li><a href=""></a>La empresa</li>
-  			</ul>
-  			<ul>
-  				<li><a href=""></a>Contacto</li>
-  			</ul>
-  		</nav>
-  	</header>
+   	</header>
+  		<section class="main-header" id="header">
+  			<nav class="navbar navbar-expand-lg d-flex">
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+   				</button>
+   				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav  mr-auto">		  
+		  			<li class="nav-item active"><a href="index.html" class="nav-link"> <i class="fas fa-home"></i> Inicio</a></li>
+		  			<li class="nav-item active"><a href="soluciones.html" class="nav-link">Soluciones <i class="fas fa-angle-down"></i></a></li>
+		  			<li class="nav-item active"><a href="laempresa.html" class="nav-link">Acerca de</a></li>
+			  		</ul>
+			  		<div>
+			  			<ul lass="navbar-nav mr-auto">
+					  		<li class="nav-item active d-flex justify-content-end"><a href="" class="nav-link"><i class="fas fa-comment-alt"></i>Contacto</a></li>
+	  					</ul>
+			  		</div>
+   				</div>
+	   		</nav>
+	   		<div class="main-title">
+	   			<img src="logojbSimple.png" alt="" height="50px">
+	   			<h1 class="main-titlePrincipal">Mantenimiento Domestico Integral</h1>
+	   			<p class="main-titleSub">El servicio de excelencia que tu casa requiere</p>
+	   			<button type="button" class="btn btn-warning">Cotización</button>
+	   		</div>
+  		</section>
+  		<section>
+			<div class="container container-cards">
+			  <div class="row">
+			    <div class="col-sm">
+			      <div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="pest.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Control de Plagas</h5>
+					    <p class="card-text">Un analisis minusioso para determinar el trato de cada plaga. Incluso sin necesidad de fumigación...</p>
+					    <a href="#" class="btn btn-warning">Leer más</a>
+					  </div>
+					</div><!-- fin card1 -->
+			    </div> <!-- fin col1 -->
+			    <div class="col-sm">
+			      <div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="mantenimiento.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Mantenimiento Residencial</h5>
+					    <p class="card-text">Realizamos el proyecto de su remodelación o mantenimiento, trabajo profesional para construir su ambiente soñado...</p>
+					    <a href="#" class="btn btn-warning">Leer más</a>
+					  </div>
+					</div><!-- fin card2 -->
+			    </div> <!-- fin col2 -->
+			    <div class="col-sm">
+			      <div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="Imperm.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Impermeabilización</h5>
+					    <p class="card-text">Proteja su patromonio hasta por 10 años con los mejores materiales del mercado...</p>
+					    <a href="#" class="btn btn-warning">Leer más</a>
+					  </div>
+					</div><!-- fin card3 -->
+			    </div> <!-- fin col3 -->
+			  </div> <!-- fin grid -->
+			</div> <!-- fin container -->
+			<div class="container-cita">
+  				<p class="text-important">Agenda una cita</p>
+  				<p>Cuentame las necesidades tiene tu hogar o negocio, </p>
+  				<a href="#" class="btn btn-success">Solicitar <i class="fas fa-users-cog"></i></a>
+			</div>
+  		</section>
+  		<section>
+  			<table class="table table-bordered table-services ">
+  				<tbody>
+  					<tr class="table-services-celd">
+  						<td>
+  							<a href=""><i class="fas fa-paint-brush table-services-icon"></i></a>
+  							<p class="table-services-text">Pintura</p>
+  						</td>
+  						<td>
+  							<a href=""><i class="fas fa-bath table-services-icon"></i></a>
+  							<p class="table-services-text">Plomeria</p>
+  						</td>
+  						<td>
+  							<a href=""><i class="fas fa-plug table-services-icon"></i></a>
+  							<p class="table-services-text">Electricidad</p>
+  						</td>
+  					</tr>
+  					<tr class="table-services-celd">
+  						<td>
+							<a href=""><i class="fab fa-pagelines table-services-icon"></i></a>
+  							<p class="table-services-text">Jardinería</p>
+  						</td>
+  						<td>
+  							<a href=""><i class="fas fa-tint table-services-icon"></i></a>
+  							<p class="table-services-text">Impermeabilización</p>
+  						</td>
+						<td>
+  							<a href=""><i class="fas fa-bug table-services-icon"></i></a>
+  							<p class="table-services-text">Control de Plagas</p>
+  						</td>
+  					</tr>
+  					 <tr class="table-services-celd">
+  					 	  <td colspan="3">
+  							<a href=""><i class="fab fa-creative-commons-remix table-services-icon"></i></a>
+  							<p class="table-services-text">Mantenimiento preventivo y correctivo de su patrimonio</p>
+  						</td>
+  						
+  					</tr>
+  				</tbody>
+  			</table>
+  		</section>
+	<footer>
+		<section id="footer">
+			<div class="row">
+				<div class="col-sm">
+					<ul>
+						<li>Inicio</li>
+						<li>Soluciones</li>
+						<li>Control de Plagas</li>
+						<li>Mantenimiento Residencial</li>
+						<li>Impermeabilización</li>
+						<li>Pintura</li>
+						<li>Plomería</li>
+						<li>Instalaciones eléctricas</li>
+						<li>Jardinería</li>
+					</ul>
+				</div>
+				<div class="col-sm">
+					<ul>
+						<li>Teléfono: <a href=""></a></li>
+						<li>Email: <a href=""></a></li>
+					</ul>
+				</div>
+				<div class="col-sm">
+					<p>Solicita una cita</p>
+					<form action="">
+						Nombre:
+						Correo:
+						Teléfono:
+						<button>Enviar</button>
+					</form>
+				</div>
+			</div>
+			<p>@2018 | Aviso de confiedencialidad</p>
+		</section>
+	</footer>
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
