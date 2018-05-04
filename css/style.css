@@ -23,12 +23,14 @@ body{
   font-size: 1.5em;
 }
 
-
 li{
   padding-left: 10px;
 }
 i{
   padding-right: 5px;
+}
+.card{
+  margin-top: 10px;
 }
 .container-cards{
   margin-top: -3em;
@@ -42,11 +44,7 @@ i{
 }
 .main-header{
   background-image: url("3207.jpg");
-  border: solid grey 2px;
-  padding-right:15px;
-  padding-left: 15px;
   padding-top: 50px;
-  padding-bottom: 10px;
   height: 650px;
 }
 .main-title{
@@ -128,7 +126,21 @@ i{
 
 }
 #footer{
-    background-color: rgba(69, 80, 59, 1);
-    height: 500px;
+    background-color: rgba(160, 156, 87, 1);
+    height: 450px;
     margin-top: -15px;
+}
+.footer-li{
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style:none;
+}
+.footer-list{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding-left: 20px;
+}
+.footer-list:hover{
+  color: rgba(249, 230, 4, 1);
 }
