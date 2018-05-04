@@ -40,7 +40,7 @@ i{
   text-align: center;
    font-family: 'Open Sans', sans-serif;
    border: 1px grey;
-   padding: 50px;
+   padding: 10px;
 }
 .main-header{
   background-image: url("3207.jpg");
@@ -70,6 +70,7 @@ i{
 .text-important{
   font-family: 'Pacifico', cursive;
   font-size: 3em;
+  text-align: center;
 }
 /* colores de fuente */
 .texto-blanco{
@@ -127,8 +128,17 @@ i{
 }
 #footer{
     background-color: rgba(160, 156, 87, 1);
-    height: 450px;
+    min-height: 450px;
     margin-top: -15px;
+}
+.footer-cita-form{
+  padding-left: 10px;
+}
+.footer-heads{
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 1em;
 }
 .footer-li{
   margin-top: 10px;

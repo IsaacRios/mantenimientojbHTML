@@ -19,7 +19,7 @@
 	  			<ul class="navbar-nav mr-auto">
 	  				<li class="nav-item active"><i class="fab fa-whatsapp"></i><a href="tel:2221202690" class="texto-verde">2221-20-26-90</a></li>
 	  				<li class="nav-item disabled texto-gris">|</li>
-	  				<li class="nav-item active"><i class="far fa-envelope"></i><a href="mailto:jbernal@mantenimientodomesticointegral.mx" class="texto-verde">jbernal@mantenimientodomesticointegral.com</a></li>
+	  				<li class="nav-item active"><i class="far fa-envelope"></i><a href="mailto:jbernal@mantenimientodomesticointegral.com" class="texto-verde">jbernal@mantenimientodomesticointegral.com</a></li>
 	  			</ul>
 	  			<div>
 		  			<ul class="navbar-nav mr-auto">
@@ -92,7 +92,7 @@
 			<div class="container-cita">
   				<p class="text-important">Agenda una cita</p>
   				<p>Cuentame las necesidades tiene tu hogar o negocio, </p>
-  				<a href="#" class="btn btn-success">Solicitar <i class="fas fa-users-cog"></i></a>
+  				<a href="#" class="btn btn-success">Solicitar <i class="fas fa-edit"></i></a>
 			</div>
   		</section>
   		<section>
@@ -140,6 +140,10 @@
 		<section id="footer">
 			<div class="row">
 				<div class="col-sm">
+					<div class="footer-heads">
+						<i class="fas fa-sitemap"></i>
+					</div>
+					<p class="text-important">Mapa</p>
 					<ul>
 						<li class="footer-li"><a href="" class="footer-list"><u>Inicio</u></a></li>
 						<li class="footer-li"><a href="" class="footer-list"><u>Soluciones</u></a></li>
@@ -155,22 +159,37 @@
 					</ul>
 				</div>
 				<div class="col-sm">
+					<div class="footer-heads">
+						<i class="fas fa-address-book"></i>
+					</div>
+					<p class="text-important">Contacto</p>
 					<ul>
-						<li>Teléfono: <a href="tel:2221202690">2221-20-26-69</a></li>
-						<li>Email: <a href="mailto:jbernal@mantenimientodomesticointegral.mx">jbernal@mantenimientodomesticointegral.mx</a></li>
+						<li class="footer-li"><i class="fab fa-whatsapp"></i> Teléfono: <br>
+							<a href="tel:2221202690" class="footer-list">2221-20-26-69</a></li>
+						<li class="footer-li"> <i class="far fa-envelope"></i> Email: <br>
+							<a href="mailto:jbernal@mantenimientodomesticointegral.mx" class="footer-list">
+							<small>jbernal@mantenimientodomesticointegral.com</small></a></li>
 					</ul>
 				</div>
 				<div class="col-sm">
-					<p>Solicita una cita</p>
-					<form action="">
-						Nombre:
-						Correo:
-						Teléfono:
-						<button>Enviar</button>
+					<div class="footer-heads">
+						<i class="fas fa-edit"></i>
+					</div>
+					<p class="text-important">Agenda una cita</p>
+					<form>
+					  <div class="form-group footer-cita-form">
+					    <label for="exampleFormControlInput1">Dirección de correo:</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com" style="width: 300px">
+
+					    <label for="exampleFormControlTextarea1">Escriba aquí su mensaje:</label>
+					    <textarea style="width: 300px" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cuentame en que puedo ayudarte..."></textarea>
+					    <br>
+					    <button type="submit" class="btn btn-danger mb-2">Enviar</button>
+					  </div>
 					</form>
 				</div>
 			</div>
-			<p class="texto-gris"><small>@2018 | Aviso de confiedencialidad</small></p>
+			<p class="texto-gris" style="text-align: center"><small>@2018 | Aviso de confiedencialidad</small></p>
 		</section>
 	</footer>
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
